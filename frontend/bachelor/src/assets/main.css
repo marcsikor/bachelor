@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+body {
+  color: rgb(0, 0, 0);
+  background-image: url("red.jpg");
+  font-family: "Mulish", sans-serif;
+}
+optgroup{
+  font-family: "Mulish", sans-serif;
+}
+.btn-light{
+  color: rgb(121, 2, 2);
+  background-color: rgba(255,255,255,0.9);
+  border-color: rgb(121, 2, 2);
+  border-width: 3px;
+  padding: 15px 25px 15px 25px !important;
+}
+
+.btn-light:hover{
+  color: rgb(0, 0, 0);
+  background-color: rgba(255,255,255,1);
+}
+.card{
+  background-color: rgba(255,255,255,0.5);
+  backdrop-filter: blur(5px);
+}
+.form-control{
+  background-color: rgba(255,255,255,0.7);
+}
+.form-control:focus{
+  background-color: rgba(255,255,255,1);
+}
+.form-select{
+  background-color: rgba(255,255,255,0.7);
+}
+.form-select:focus{
+  background-color: rgba(255,255,255,1);
+}
+.list-group-item{
+  background-color: rgba(255,255,255,0.7);
+}
+hr{
+  color: rgb(255,255,255);
+}
+.button-size{
+  width: 15rem !important;
+  text-align: center;
+}
+.card-title{
+  padding-top: 1rem;
+}
